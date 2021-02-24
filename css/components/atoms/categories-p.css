@@ -1,0 +1,6 @@
+.categories p{
+    width: 10vw;
+    height: 5vh; 
+    display: flex;
+    justify-content: space-around;
+}
