@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="AppRestaurante\styles\components.css\templates\general.css">
+    
+    <link rel="stylesheet" href="styles/components/templates/general.css">
     <title>Nuevo proyecto</title>
+
 </head>
 <body>
     
-    <header> 
+    <header class="header"> 
         <img class="logo" src="./comidas/Otros/sushi.png">
         <nav> 
             <button class="menu">
@@ -19,11 +21,13 @@
     </header>
     
     <main> 
+        <header>
         <h1>Food for home</h1>
         <p class="lorem-ipsum">Lorem ipsum Dolor sit amet consecteur</p>
-        <div class="categories">
-          
-            <div class="container-category">
+        </header>
+        
+        <section class="categories">
+          <div class="container-category">
                 <img class="container-category-photo" src="./comidas/Iconos Comidas/Entrantes.png">
               <p class="text-container-category">Entrantes</p>
           </div>
@@ -39,16 +43,15 @@
             <img class="container-category-photo" src="./comidas/Iconos Comidas/Postre.png">
             <p class="text-container-category">Postre</p>
           </div>
-        </div>
+        </section>
         
-        <div class="dishes">
-            
+        <section class="dishes">
             <div class="info-dish1">
                 <img class="photo-info-dish1" src="./comidas/entrantes/gyozas.jpg">
                 <div class="detail-info-dish1">
                     <p class="price-dish1"></p>
-                    <h4>Con carne o verdura</h4>
-                    <p></p>
+                    <h4>Gyozas</h4>
+                    <p>Con carne o verdura</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -61,8 +64,8 @@
                 <img class="photo-info-dish2" src="./comidas/entrantes/sopa de miso.jpg">
                 <div class="detail-info-dish2">
                     <p class="price-dish2"></p>
-                    <h4>Con apio, zanahoria y soja</h4>
-                    <p></p>
+                    <h4>Sopa de miso</h4>
+                    <p>Con apio, zanahoria, soja y virutas "mamen"</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -75,8 +78,8 @@
                 <img class="photo-info-dish3" src="./comidas/entrantes/edamame.jpg">
                 <div class="detail-info-dish3">
                     <p class="price-dish3"></p>
-                    <h4>Con sal y salsa de romesco</h4>
-                    <p></p>
+                    <h4>Edamame</h4>
+                    <p>Con sal y salsa de romesco</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -89,8 +92,8 @@
                 <img class="photo-info-dish4" src="./comidas/platos principales/yakisoba.jpg">
                 <div class="detail-info-dish4">
                     <p class="price-dish4"></p>
-                    <h4>Con ternera y verdura</h4>
-                    <p></p>
+                    <h4>Yakisoba</h4>
+                    <p>Con ternera y verdura</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -103,8 +106,8 @@
                 <img class="photo-info-dish5" src="./comidas/platos principales/ramen.jpg">
                 <div class="detail-info-dish5">
                     <p class="price-dish5"></p>
-                    <h4>Con huevos, carne y verduras</h4>
-                    <p></p>
+                    <h4>Ramen</h4>
+                    <p>Con huevos, carne y verduras</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -117,8 +120,8 @@
                 <img class="photo-info-dish6" src="./comidas/platos principales/Sushi variado.png">
                 <div class="detail-info-dish6">
                     <p class="price-dish6"></p>
-                    <h4>Nigiri de atun, salmon, gamba y calamar</h4>
-                    <p></p>
+                    <h4>Sushi variado</h4>
+                    <p>Nigiri de atun, salmon, gamba y calamar</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -131,8 +134,8 @@
                 <img class="photo-info-dish7" src="./comidas/platos principales/Sushi atun.jpg">
                 <div class="detail-info-dish7">
                     <p class="price-dish7"></p>
-                    <h4>Nigiri de atun</h4>
-                    <p></p>
+                    <h4>Sushi de atun</h4>
+                    <p>Nigiri y maki de atun</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -145,8 +148,8 @@
                 <img class="photo-info-dish8" src="./comidas/bebidas/coca cola.jpg">
                 <div class="detail-info-dish8">
                     <p class="price-dish8"></p>
-                    <h4>330 ml</h4>
-                    <p></p>
+                    <h4>Coca-cola</h4>
+                    <p>330 ml</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -159,8 +162,8 @@
                 <img class="photo-info-dish9" src="./comidas/bebidas/cerveza.jpg">
                 <div class="detail-info-dish9">
                     <p class="price-dish9"></p>
-                    <h4>500 ml</h4>
-                    <p></p>
+                    <h4>Cerveza</h4>
+                    <p>500 ml</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -173,8 +176,8 @@
                 <img class="photo-info-dish10" src="./comidas/bebidas/agua.jpg">
                 <div class="detail-info-dish10">
                     <p class="price-dish10"></p>
-                    <h4>500 ml</h4>
-                    <p></p>
+                    <h4>Agua</h4>
+                    <p>500 ml</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -187,8 +190,8 @@
                 <img class="photo-info-dish11" src="./comidas/postres/mochis.jpg">
                 <div class="detail-info-dish11">
                     <p class="price-dish11"></p>
-                    <h4>De chocolate, te verde y judias</h4>
-                    <p></p>
+                    <h4>Mochis</h4>
+                    <p>De chocolate, te verde y judias</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
@@ -201,8 +204,8 @@
                 <img class="photo-info-dish12" src="./comidas/postres/trufas.jpg">
                 <div class="detail-info-dish12">
                     <p class="price-dish12"></p>
-                    <h4>De chocolate con leche o blanco</h4>
-                    <p></p>
+                    <h4>Trufas</h4>
+                    <p>De chocolate con leche o blanco</p>
                     <div class="counter">
                         <button class="counterLeft"></button>
                         <p></p>
