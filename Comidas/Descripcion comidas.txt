@@ -4,14 +4,14 @@ Edamame: Con sal y salsa de romesco
 
 Gyozas: Con carne o verdura
 
-Sopa de miso: Con apio, zanahoria y soja
+Sopa de miso: Con apio, zanahoria, soja y virutas "mamen"
 
 
 PLATOS PRINCIPALES
 
 Ramen: Con huevos, carne y verduras
 
-Sushi atun: Nigiri de atun
+Sushi atun: Nigiri de atun con soja y wasabi
 
 Sushi variado: Nigiri de atun, salmon, gamba y calamar
 
@@ -28,6 +28,6 @@ Agua: 500 ml
 
 POSTRE
 
-Mochis: De chocolate, te verde y judias
+Mochis: De chocolate, té verde y judias
 
-Trufas: De chocolate con leche o blanco
+Trufas: De chocolate con leche o chocolate blanco
