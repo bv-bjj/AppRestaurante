@@ -2,3 +2,29 @@
 @import url('../molecules/header.css');
 @import url('/styles/components.css/organisms/');
 @import url('/styles/components.css/pages/');
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+  }
+
+nav {
+  display: none;
+}
+
+.logo {
+    width: 30%;
+}
+  
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.container-category-photo {
+    width: 200px;
+}
