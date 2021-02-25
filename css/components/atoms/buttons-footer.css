@@ -1,0 +1,13 @@
+footer button{
+    width: 8vw;
+    height: auto;
+    display: flex;
+   justify-content: center;
+ 
+}
+
+footer img{
+    width: 5vw;
+    height: auto;  
+   
+}
