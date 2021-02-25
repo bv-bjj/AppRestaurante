@@ -1,5 +1,9 @@
 .categories img{
-    width: 10vw;
+    width: 13vw;
+    margin: 15px;
     height: auto;
-    justify-content: space-around;
+    }
+
+.categories img:hover{
+    width: 15vw;
 }
