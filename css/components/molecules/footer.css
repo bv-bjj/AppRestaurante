@@ -1,4 +1,5 @@
 footer {
+    width: 360px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }

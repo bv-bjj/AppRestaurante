@@ -1,70 +1,71 @@
 .info-dish1{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
     margin: 0px 0px 20px 0px;
 }
 .info-dish2{
     display: flex;
-    align-items:flex-start;
+    align-items: center;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish3{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish4{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish5{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish6{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish7{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish8{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish9{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish10{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish11{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
 
 .info-dish12{
     display: flex;
-    align-items:flex-start;
+    justify-content: space-around;
     margin: 0px 0px 20px 0px;
 }
