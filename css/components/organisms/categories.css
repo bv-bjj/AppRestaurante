@@ -1,7 +1,12 @@
 .categories{
+    width: auto;
+    height: 200px;
     display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+    
     
 }
 

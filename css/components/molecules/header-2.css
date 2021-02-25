@@ -1,6 +1,15 @@
 .header2 {
     padding: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     
 }
 
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.subtitle {
+    display: block;
+}
