@@ -1,86 +1,56 @@
 .info-dish {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-p.price-dish1 {
-    font-weight: bold;
-    color: red;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
     
 }
 
-
-.info-dish1{
-    display: flex;
-    flex-direction: row;    
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: 0px 0px 20px 0px;
-}
-.info-dish2{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin: 0px 0px 20px 0px;
+.detail-info-dish {
+    margin-left: 30px;
 }
 
-.info-dish3{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
+
+.detail-info-dish p{
+    margin: 2px;
 }
 
-.info-dish4{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
+
+.dishes p {
+    color: var(--black);
+    }
+
+.dishes h4 {
+    margin: 0px;
 }
 
-.info-dish5{
+.counter {
     display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 10px;
+    
 }
 
-.info-dish6{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
+.counter p {
+    width: 30px;
+    height: 30px;
+    background-color: #F0F0F2;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    line-height: 28px;
 }
 
-.info-dish7{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
-}
-
-.info-dish8{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
-}
-
-.info-dish9{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
-}
-
-.info-dish10{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
-}
-
-.info-dish11{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
-}
-
-.info-dish12{
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 20px 0px;
+.counter button {
+    width: 30px;
+    height: 30px;
+    background-color: #F0F0F2;
+    color: black;
+    margin: 0px;
+    text-align: center;
+    line-height: 28px;
+    
 }

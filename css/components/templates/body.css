@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap');
 
 body{
-    width: 360px;
-    height: 640px;
-    padding: 30px;
-    margin: 0;
+    width: auto;
+    height: auto;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin: 10px;
     background-color: rgb(253, 252, 244);
     font-family: 'Shippori Mincho', serif;
 }
+
+@media (max-width: 600px) {
+    body{
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
+
+
 

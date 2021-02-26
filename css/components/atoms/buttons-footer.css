@@ -15,18 +15,16 @@ footer img{
    
 }
 
-footer img:hover {
-    width: 7.3vw;
-    height: auto;  
+.carro img {
+    position: relative;
+    width: 10vw;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
 }
 
-.heart img {
-    width: 65px;
-    height: 65px;
-    border: none;
-    position: relative;
-    top: -50px;
-}
+
 
 button {
     outline: none;

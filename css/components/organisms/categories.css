@@ -1,6 +1,7 @@
 .categories{
     width: auto;
-    height: 200px;
+    height: auto;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     overflow-x: scroll;
