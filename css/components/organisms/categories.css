@@ -2,6 +2,7 @@
     width: auto;
     height: auto;
     margin-bottom: 10px;
+    padding-left: 15px;
     display: flex;
     align-items: center;
     overflow-x: scroll;
