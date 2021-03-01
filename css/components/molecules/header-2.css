@@ -1,13 +1,15 @@
 .header2 {
-        padding-bottom: 5px;
-        padding-left: 20px;
+    width: auto;
+    height: auto;
+    padding-bottom: 5px;
+    padding-left: 20px;
     
 }
 
 h1 {
     display: block;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 900;
     margin: 2px;
 }
 
