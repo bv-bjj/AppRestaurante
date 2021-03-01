@@ -1,5 +1,8 @@
 .footer-body2{
+    display: flex;
+    justify-content: space-around;
     border-radius: 33px 33px 0px 0px;
     background-color: #FF6B00;
     height: 35vh;
+ 
 }
