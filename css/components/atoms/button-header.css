@@ -1,4 +1,18 @@
-.boton-menu{
-    width: 3vw;
-    height: 3vh;
+nav {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.menu {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+    
+}
+
+.boton-menu img {
+    width: 5vw;
+    height: auto;
 }
