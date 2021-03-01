@@ -1,6 +1,7 @@
 .header1{
 height: 15vh;
 width: 360px;
+padding-left: 15px;
 display: flex;
 justify-content: flex-start;
 

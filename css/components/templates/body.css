@@ -8,7 +8,7 @@ body{
     margin-right: auto;
     padding: 10px;
     margin: 10px;
-    background-color: rgb(253, 252, 244);
+    background-color: white;
     font-family: 'Shippori Mincho', serif;
 }
 
@@ -16,6 +16,7 @@ body{
     body{
         margin-left: auto;
         margin-right: auto;
+        
     }    
 }
 

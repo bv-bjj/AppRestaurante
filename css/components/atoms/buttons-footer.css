@@ -1,29 +1,47 @@
 footer button{
-    width: 30vw;
-    height: auto;
+    
     display: flex;
     justify-content: center;
     cursor: pointer;
-    background-color: white;
+    background-color: transparent;
     border: none;
+    padding: 10px;
  
 }
 
-footer img{
-    width: 7vw;
+.icon img {
+    width: 20px;
+    opacity: 0,5;
+    color: grey;
+}
+
+
+button img{
+    width: 5vw;
     height: auto;  
+    opacity: 0,2;
+    
    
 }
 
-.carro img {
+.carro {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    background-color: orange;
+    box-shadow: 5px 4px 7px rgb(196, 196, 196);
+    cursor: pointer;
     position: relative;
-    width: 10vw;
-    background-color: red;
-    border-radius: 5px;
-    margin-bottom: 20px;
+    top: -20px;
     
 }
 
+.carro img {
+    width: 35px;
+    
+
+}
 
 
 button {

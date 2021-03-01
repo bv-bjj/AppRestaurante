@@ -1,5 +1,6 @@
 .header2 {
         padding-bottom: 5px;
+        padding-left: 20px;
     
 }
 
@@ -10,7 +11,11 @@ h1 {
     margin: 2px;
 }
 
-.subtitle {
+.subtitle{
     margin: 2px;
     padding: 2px;
+}
+
+.header2 p {
+    color: grey;
 }
