@@ -7,7 +7,7 @@ body{
     padding: 10px;
     margin: 10px;
     background-color: white;
-    font-family: 'Shippori Mincho', serif;
+    font-family: 'Karla',sans-serif; 
 }
 
 @media (max-width: 600px) {
