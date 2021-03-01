@@ -1,4 +1,9 @@
 .dishes {
-    padding: 0px 10px 10px 30px;
-    margin: 20px 0px 0px 0px;
+    width: auto;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    
+   
 }

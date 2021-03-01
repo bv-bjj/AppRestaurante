@@ -1,7 +1,6 @@
 .categories p{
     width: 15vw;
-    height: 0vh;
-    font-weight: bold; 
+    height: 5vh; 
     display: flex;
     justify-content: space-around;
 }

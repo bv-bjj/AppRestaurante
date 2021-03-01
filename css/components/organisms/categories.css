@@ -1,6 +1,14 @@
 .categories{
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: proximity;
+    
+    
 }
 
 

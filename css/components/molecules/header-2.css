@@ -1,0 +1,15 @@
+.header2 {
+        padding-bottom: 5px;   
+}
+
+h1 {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.subtitle {
+    margin: 2px;
+    padding: 2px;
+}

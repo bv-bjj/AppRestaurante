@@ -1,13 +1,32 @@
 footer button{
-    width: 8vw;
+    width: 30vw;
     height: auto;
     display: flex;
-   justify-content: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+    border: none;
  
 }
 
 footer img{
-    width: 5vw;
+    width: 7vw;
     height: auto;  
    
 }
+
+.carro img {
+    position: relative;
+    width: 10vw;
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+button {
+    outline: none;
+}
+
