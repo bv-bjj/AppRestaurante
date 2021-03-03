@@ -1,9 +1,8 @@
-let counterDisplayElem = document.querySelectorAll('.counter-display');
- console.log(counterDisplayElem);
+let counterDisplayElem = document.querySelector('.counter-display');
+ 
+let counterMinusElem = document.querySelector('.counterLeft');
 
-let counterMinusElem = document.querySelectorAll('.counterLeft');
-
-let counterPlusElem = document.querySelectorAll('.counterRight');
+let counterPlusElem = document.querySelector('.counterRight');
 
 let count = 0;
 

@@ -131,3 +131,16 @@ let arraydishes = [{
 },
 
 ]
+
+var plato = {
+    id: 1,
+    imgFood: "./img/gyozas.png",
+    priceFood: 4.00,
+    nameFood: "Gyoza",
+    descriptionFood: "Con carne o verdura",
+    quantity: 0,
+    categoryFood: "Entrantes",
+
+};
+
+console.log(document.getElementById("primerplato")); 
