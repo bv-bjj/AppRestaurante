@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="css/components/pages/pages-main.css">
     <link rel="icon" type="image/png" href="img/sushi.png">
-    <title>Nuevo proyecto</title>
+    <title>El sushi, la mejor comida japonesa a domicilio</title>
 
 </head>
 
@@ -58,7 +58,7 @@
                     <p class="subtitle-dish">Con carne o verdura</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                     <p class="subtitle-dish">Con apio, zanahoria y soja </p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     <p class="subtitle-dish">Con sal y salsa de romesco</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     <p class="subtitle-dish">Con ternera y verdura</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -108,9 +108,9 @@
                     <p class="price-dish">€7.00</p>
                     <h4>Ramen</h4>
                     <p class="subtitle-dish">Con huevos, carne y verduras</p>
-                    <div class="counter">
+                    <div class="counter" id="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                     <p class="subtitle-dish">Nigiri de atun y salmon</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                     <p class="subtitle-dish">Nigiri y maki de atun</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                     <p class="subtitle-dish">330 ml</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                     <p class="subtitle-dish">500 ml</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                     <p class="subtitle-dish">500 ml</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -188,7 +188,7 @@
                     <p class="subtitle-dish">De chocolate, te verde y judias</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
@@ -201,13 +201,14 @@
                     <p class="subtitle-dish">De chocolate con leche o blanco</p>
                     <div class="counter">
                         <button class="counterLeft">-</button>
-                        <p>0</p>
+                        <p class="counter-display">0</p>
                         <button class="counterRight">+</button>
                     </div>
                 </div>
             </div>
         </section>
-    </main>
+           
+        </main>
 
     <footer>
         <button class="icon">
@@ -227,11 +228,45 @@
         </button>
     </footer>
 
-   
+<div class="body2">
+        <header class="header-body2">
+            <button class="back">
+                <img class="arrow-left" src="./img/back.png">
+            </button>
+            <button class="delete">
+                <img class="trash-bin" src="./img/delete.png">
+            </button>
+        </header>
+        <main>
+            <h3>My Cart</h3>
+            <div class="dishes2"></div>
+        </main>
+        <footer class="footer-body2">
+            <div>
+                <div class="subtotal1">
+                    <p>Subtotal</p>
+                    <p>Tax & Fees</p>
+                    <p>Delivery</p>
+                    <p>TOTAL</p>
+                </div>
+                <div class="subtotal2">
+                    <p class="subtotal-prizes"></p>
+                    <p class="taxes"></p>
+                    <p class="delivery"></p>
+                    <p class="total"></p>
+                </div>
+                <button class="order">Enviar pedido</button>
+
+            </div>
+        </footer>
+
+</div>
+
 
     
 
-    <script></script>
+    <script src="Counter.js"></script>
+    <script src="Array.js"></script>
     <script></script>
     <script></script>
     <script></script>
