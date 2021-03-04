@@ -13,11 +13,15 @@ footer button{
     opacity: 0,5;
     color: grey;
     background-size: cover;
+    transition: all .2s ease-in-out;
 }
 
 .icon:hover, .icon:focus {
   filter: invert(80%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+  transform: scale(1.2);
 }
+
+
 
 button img{
     width: 5vw;
@@ -27,8 +31,11 @@ button img{
    
 }
 
+
+
 .button img:hover {
     fill: orange;
+    
 
 }
 
@@ -42,6 +49,8 @@ button img{
     cursor: pointer;
     position: relative;
     top: -20px;
+    transition: all .2s ease-in-out;
+    
     
 }
 
@@ -51,6 +60,12 @@ button img{
     filter: invert();
     
 
+}
+
+
+
+.carro:hover {        
+    transform: scale(1.2);
 }
 
 

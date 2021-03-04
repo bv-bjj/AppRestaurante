@@ -15,4 +15,5 @@ nav {
 .boton-menu img {
     width: 5vw;
     height: auto;
+    max-width: 5vw;
 }
