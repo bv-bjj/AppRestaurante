@@ -134,11 +134,11 @@ let arraydishes = [{
 
 let dishesDiv = "";
 
+
+
 function printdishes () {
     
-    
-
-    for (let indice = 0; 
+        for (let indice = 0; 
         indice < arraydishes.length; 
         indice++) {
 
@@ -162,6 +162,8 @@ function printdishes () {
 
   
     document.querySelector(".dishes").innerHTML = dishesDiv;
+   
+
 }
 
 printdishes ();

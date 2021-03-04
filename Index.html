@@ -31,37 +31,26 @@
             </header>
 
         <section class="categories">
-            <div class="container-category">
+            <div class="container-category" onclick="filtercategory('Entrantes')">
                 <img class="container-category-photo" src="./img/Entrantes.png">
                 <p class="text-container-category">Entrantes</p>
             </div>
-            <div class="container-category">
+            <div class="container-category" onclick="filtercategory('Principal')"> 
                 <img class="container-category-photo" src="./img/Comida principal.png">
                 <p class="text-container-category">Principal</p>
             </div>
-            <div class="container-category">
+            <div class="container-category" onclick="filtercategory('Bebidas')">
                 <img class="container-category-photo" src="./img/Bebidas.png">
                 <p class="text-container-category">Bebidas</p>
             </div>
-            <div class="container-category">
+            <div class="container-category" onclick="filtercategory('Postres')">
                 <img class="container-category-photo" src="./img/Postre.png">
                 <p class="text-container-category">Postres</p>
             </div>
         </section>
 
         <section class="dishes">
-            <div class="info-dish" id="primerplato">
-                <img class="photo-info-dish" src="./img/gyozas.png">
-                <div class="detail-info-dish">
-                    <p class="price-dish">€4.00</p>
-                    <h4 class="name-dish">Gyozas</h4>
-                    <p class="subtitle-dish">Con carne o verdura</p>
-                    <div class="counter">
-                        <button class="counterLeft">-</button>
-                        <p class="counter-display">0</p>
-                        <button class="counterRight">+</button>
-                    </div>
-                </div>
+            
         </section>
            
         </main>
@@ -125,9 +114,10 @@
 
 
     <script src="./js/dishes.js"></script>
-    <script src="./js/Counter.js"></script>
+    <script src="./js/counter.js"></script>
     <script src="./js/switch.js"></script>
-    <script></script>
+    <script src="./js/categorias.js"></script>
+    
 
 </body>
 
